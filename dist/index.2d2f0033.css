@@ -58,6 +58,28 @@ h1, h2, h3, h4, h5 {
 
 @font-face {
   font-family: RobotoCondensed;
+  src: url("roboto-condensed.light.a0cbe068.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url("economica-bold.2ad241ec.ttf");
+}
+
+body {
+  text-align: center;
+  padding: 2.5%;
+  font-family: RobotoCondensed;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: EconomicaBold;
+}
+
+@font-face {
+  font-family: RobotoCondensed;
   src: url("roboto-condensed.light.a5f9c5f3.ttf");
   font-weight: 800;
 }
@@ -81,6 +103,7 @@ h1, h2, h3, h4, h5 {
 .profile {
   width: 200px;
   height: 200px;
+  object-fit: cover;
   border-radius: 100px;
 }
 
@@ -112,28 +135,6 @@ h1, h2, h3, h4, h5 {
   to {
     opacity: 100;
   }
-}
-
-@font-face {
-  font-family: RobotoCondensed;
-  src: url("roboto-condensed.light.28cc8f2b.ttf");
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: EconomicaBold;
-  src: url("economica-bold.7bac4ef4.ttf");
-}
-
-body {
-  text-align: center;
-  padding: 2.5%;
-  font-family: RobotoCondensed;
-  font-size: 20px;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: EconomicaBold;
 }
 
 /*# sourceMappingURL=index.2d2f0033.css.map */

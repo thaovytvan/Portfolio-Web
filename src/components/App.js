@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import Title from './Title';
-import profile from '../assets/profile.png'
+import profile from '../assets/avatar.jpg'
 class Regularclass{
 
 }
@@ -29,7 +29,7 @@ class App extends Component{
     render(){
         return (
             <div>
-                <img src={profile} alt='profile' class="profile"/>
+                <img src={profile} alt='profile' className='profile'/>
                 <h1>Hello!</h1>
                 <p>My name Vy.</p>
                 <Title/> 
@@ -37,9 +37,9 @@ class App extends Component{
                 {
                     this.state.displayBio ?(
                         <div>
-                                <p> I live in Quang Tri, and code everyday.</p>
+                                <p> I live in Da Nang, and code everyday.</p>
                                 <p>My favorite language JavaScript, and I think React.js is awesome.</p>
-                                <p>Besides coding, I also love music and ramen!</p>    
+                                <p>Besides coding, I also love music and watching films.</p>    
                                 <button onClick={this.toggleDisplayBio}>Show less</button>           
                         </div>
                     ) : (

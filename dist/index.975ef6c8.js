@@ -2915,8 +2915,8 @@ var _jokes = require("./components/Jokes");
 var _jokesDefault = parcelHelpers.interopDefault(_jokes);
 var _musicMaster = require("./projects/music-master");
 var _musicMasterDefault = parcelHelpers.interopDefault(_musicMaster);
-var _src = require("./projects/evens-or-odds/src");
-var _srcDefault = parcelHelpers.interopDefault(_src);
+var _evensOrOdds = require("./projects/evens-or-odds");
+var _evensOrOddsDefault = parcelHelpers.interopDefault(_evensOrOdds);
 var _indexCss = require("./index.css");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
@@ -2956,7 +2956,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Browser
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                 path: "/evens-or-odds",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _srcDefault.default), {}, void 0, false, void 0, void 0)
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _evensOrOddsDefault.default), {}, void 0, false, void 0, void 0)
                 }, void 0, false, void 0, void 0)
             }, void 0, false, {
                 fileName: "src/index.js",
@@ -2980,7 +2980,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Browser
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","history":"iE5Zp","./components/Header":"hsJbF","./components/App":"ey9du","./components/Jokes":"azgA9","./projects/music-master":"271LQ","./projects/evens-or-odds/src":"53oP6","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","history":"iE5Zp","./components/Header":"hsJbF","./components/App":"ey9du","./components/Jokes":"azgA9","./projects/music-master":"271LQ","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./projects/evens-or-odds":"bEJhL"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("5e19bd648d7dcdf8");
 
@@ -32761,8 +32761,8 @@ var _socialProfiles = require("./SocialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
 var _title = require("./Title");
 var _titleDefault = parcelHelpers.interopDefault(_title);
-var _profilePng = require("../assets/profile.png");
-var _profilePngDefault = parcelHelpers.interopDefault(_profilePng);
+var _avatarJpg = require("../assets/avatar.jpg");
+var _avatarJpgDefault = parcelHelpers.interopDefault(_avatarJpg);
 class Regularclass {
 }
 class ComponentClass extends (0, _react.Component) {
@@ -32791,9 +32791,9 @@ class App extends (0, _react.Component) {
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _profilePngDefault.default),
+                    src: (0, _avatarJpgDefault.default),
                     alt: "profile",
-                    class: "profile"
+                    className: "profile"
                 }, void 0, false, {
                     fileName: "src/components/App.js",
                     lineNumber: 32,
@@ -32828,7 +32828,7 @@ class App extends (0, _react.Component) {
                 this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: " I live in Quang Tri, and code everyday."
+                            children: " I live in Da Nang, and code everyday."
                         }, void 0, false, {
                             fileName: "src/components/App.js",
                             lineNumber: 40,
@@ -32842,7 +32842,7 @@ class App extends (0, _react.Component) {
                             columnNumber: 33
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "Besides coding, I also love music and ramen!"
+                            children: "Besides coding, I also love music and watching films."
                         }, void 0, false, {
                             fileName: "src/components/App.js",
                             lineNumber: 42,
@@ -32922,7 +32922,7 @@ $RefreshReg$(_c, "AppWidthHeader");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","./Title":"6wotK","../assets/profile.png":"Ubjjs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"16pwG":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","./Title":"6wotK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/avatar.jpg":"bBLIt"}],"16pwG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ec2f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32940,7 +32940,6 @@ const Project = (props)=>{
     const { title , image , description , link  } = props.project;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
-            display: "inline-block",
             width: 300,
             margin: 10
         },
@@ -32997,6 +32996,10 @@ const Projects = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    display: "flex",
+                    justifyContent: "space-around"
+                },
                 children: (0, _projectsDefault.default).map((PROJECT)=>{
                     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
                         project: PROJECT
@@ -33042,21 +33045,21 @@ const PROJECTS = [
         id: 1,
         title: "Example React Application",
         description: "A React App that I built, involving JS and core web dev concepts!",
-        link: "https://github.com/15Dkatz/example",
+        link: "https://github.com/thaovytvan/tiktok-ui",
         image: (0, _project1PngDefault.default)
     },
     {
         id: 2,
-        title: "My API",
-        description: "A REST API that I built from scratch with GET and POST requests!",
-        link: "https://github.com/15Dkatz/example",
+        title: "My Gymnasium Application",
+        description: "A Web App that I built from Java languague!",
+        link: "https://github.com/thaovytvan/Gymnasium-app",
         image: (0, _project2PngDefault.default)
     },
     {
         id: 3,
-        title: "Operating Systems Final Project",
-        description: "My unique final project for my university Operating Systems course",
-        link: "https://github.com/15Dkatz/example",
+        title: "DanaTravel Application",
+        description: "A app about Da Nang tourism. You can book tour at any time.",
+        link: "https://github.com/nt-myduyen/PBL3-DanaTravel",
         image: (0, _project3PngDefault.default)
     }
 ];
@@ -33306,10 +33309,10 @@ exports.default = Title;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"Ubjjs":[function(require,module,exports) {
-module.exports = require("be52b80ac623c898").getBundleURL("bLxZJ") + "profile.36203507.png" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bBLIt":[function(require,module,exports) {
+module.exports = require("2ee1a4afaadf4828").getBundleURL("bLxZJ") + "avatar.a3c6ab3e.jpg" + "?" + Date.now();
 
-},{"be52b80ac623c898":"lgJ39"}],"azgA9":[function(require,module,exports) {
+},{"2ee1a4afaadf4828":"lgJ39"}],"azgA9":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$40f0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33781,11 +33784,11 @@ exports.default = Tracks;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"56uCr":[function() {},{}],"53oP6":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$ce81 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"56uCr":[function() {},{}],"irmnC":[function() {},{}],"bEJhL":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1094 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$ce81.prelude(module);
+$parcel$ReactRefreshHelpers$1094.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -33810,12 +33813,12 @@ store.subscribe(()=>{
 const EvensOrOdds = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRedux.Provider), {
         store: store,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, {
-            fileName: "src/projects/evens-or-odds/src/index.js",
+            fileName: "src/projects/evens-or-odds/index.js",
             lineNumber: 19,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
-        fileName: "src/projects/evens-or-odds/src/index.js",
+        fileName: "src/projects/evens-or-odds/index.js",
         lineNumber: 18,
         columnNumber: 5
     }, undefined);
@@ -33824,12 +33827,12 @@ exports.default = EvensOrOdds;
 var _c;
 $RefreshReg$(_c, "EvensOrOdds");
 
-  $parcel$ReactRefreshHelpers$ce81.postlude(module);
+  $parcel$ReactRefreshHelpers$1094.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@reduxjs/toolkit":"lL1Ef","react-redux":"bdVon","./reducers":"fF9kE","./components/App":"7ChpH","./index.css":"fwydm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lL1Ef":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@reduxjs/toolkit":"lL1Ef","react-redux":"bdVon","./reducers":"rMF7s","./components/App":"9y1qq","./index.css":"eNqxJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lL1Ef":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MiddlewareArray", ()=>MiddlewareArray);
@@ -33881,8 +33884,8 @@ var _reselect = require("reselect");
 // src/getDefaultMiddleware.ts
 var _reduxThunk = require("redux-thunk");
 var _reduxThunkDefault = parcelHelpers.interopDefault(_reduxThunk);
-var process = require("fef16241c6ba7f2a");
 var global = arguments[3];
+var process = require("fef16241c6ba7f2a");
 var __extends = undefined && undefined.__extends || function() {
     var extendStatics = function(d, b) {
         extendStatics = Object.setPrototypeOf || ({
@@ -39371,7 +39374,7 @@ const useStore = /*#__PURE__*/ createStoreHook();
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fF9kE":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"rMF7s":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _settings = require("./settings");
@@ -39386,7 +39389,7 @@ exports.default = {
     gameState: (0, _gameStateDefault.default)
 };
 
-},{"./settings":"jSuBg","./deck":"dBa3J","./gameState":"9yjlW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jSuBg":[function(require,module,exports) {
+},{"./settings":"l13UP","./deck":"gSM7x","./gameState":"do40s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l13UP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _types = require("../actions/types");
@@ -39415,7 +39418,7 @@ const settingsReducer = (state = DEFAULT_SETTINGS, action)=>{
 };
 exports.default = settingsReducer;
 
-},{"../actions/types":"5VyPq","./fetchStates":"hUZC4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5VyPq":[function(require,module,exports) {
+},{"../actions/types":"cYmKo","./fetchStates":"dE3jB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cYmKo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "SET_GAME_STARTED", ()=>SET_GAME_STARTED);
@@ -39435,7 +39438,7 @@ const DECK_DRAW = {
     FETCH_ERROR: "DECK_DRAW_FETCH_SUCCESS"
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hUZC4":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dE3jB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = {
@@ -39443,7 +39446,7 @@ exports.default = {
     error: "error"
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dBa3J":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gSM7x":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _types = require("../actions/types");
@@ -39493,7 +39496,7 @@ const deckReducer = (state = DEFAULT_DECK, action)=>{
 };
 exports.default = deckReducer;
 
-},{"../actions/types":"5VyPq","./fetchStates":"hUZC4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9yjlW":[function(require,module,exports) {
+},{"../actions/types":"cYmKo","./fetchStates":"dE3jB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"do40s":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _types = require("../actions/types");
@@ -39537,11 +39540,11 @@ const gameStateReducer = (state = DEFAULT_GAME_STATE, action)=>{
 };
 exports.default = gameStateReducer;
 
-},{"../actions/types":"5VyPq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7ChpH":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2bb6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"../actions/types":"cYmKo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9y1qq":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$286f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2bb6.prelude(module);
+$parcel$ReactRefreshHelpers$286f.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -39576,20 +39579,20 @@ class App extends (0, _react.Component) {
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "Please try reloading the app. An error occurred."
                 }, void 0, false, {
-                    fileName: "src/projects/evens-or-odds/src/components/App.js",
+                    fileName: "src/projects/evens-or-odds/components/App.js",
                     lineNumber: 23,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: this.props.message
                 }, void 0, false, {
-                    fileName: "src/projects/evens-or-odds/src/components/App.js",
+                    fileName: "src/projects/evens-or-odds/components/App.js",
                     lineNumber: 24,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "src/projects/evens-or-odds/src/components/App.js",
+            fileName: "src/projects/evens-or-odds/components/App.js",
             lineNumber: 22,
             columnNumber: 9
         }, this);
@@ -39598,7 +39601,7 @@ class App extends (0, _react.Component) {
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     children: "♠️ ♥ ♣ Evens or Odds ♠️ ♥ ♣"
                 }, void 0, false, {
-                    fileName: "src/projects/evens-or-odds/src/components/App.js",
+                    fileName: "src/projects/evens-or-odds/components/App.js",
                     lineNumber: 30,
                     columnNumber: 9
                 }, this),
@@ -39607,47 +39610,47 @@ class App extends (0, _react.Component) {
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                             children: "The game on!"
                         }, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 34,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameStateDefault.default), {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 35,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 36,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _guessDefault.default), {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 37,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 38,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drawCardDefault.default), {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 39,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 40,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 41,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 42,
                             columnNumber: 15
                         }, this),
@@ -39655,13 +39658,13 @@ class App extends (0, _react.Component) {
                             onClick: this.props.cancelGame,
                             children: "Cancel Game"
                         }, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 43,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "src/projects/evens-or-odds/src/components/App.js",
+                    fileName: "src/projects/evens-or-odds/components/App.js",
                     lineNumber: 33,
                     columnNumber: 13
                 }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39669,12 +39672,12 @@ class App extends (0, _react.Component) {
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                             children: "The game awaits!"
                         }, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 47,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 48,
                             columnNumber: 15
                         }, this),
@@ -39682,29 +39685,29 @@ class App extends (0, _react.Component) {
                             onClick: this.startGame,
                             children: "Start Game"
                         }, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 49,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 50,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _instructionsDefault.default), {}, void 0, false, {
-                            fileName: "src/projects/evens-or-odds/src/components/App.js",
+                            fileName: "src/projects/evens-or-odds/components/App.js",
                             lineNumber: 51,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "src/projects/evens-or-odds/src/components/App.js",
+                    fileName: "src/projects/evens-or-odds/components/App.js",
                     lineNumber: 46,
                     columnNumber: 13
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "src/projects/evens-or-odds/src/components/App.js",
+            fileName: "src/projects/evens-or-odds/components/App.js",
             lineNumber: 29,
             columnNumber: 7
         }, this);
@@ -39738,12 +39741,12 @@ exports.default = _c = componentConnector(App);
 var _c;
 $RefreshReg$(_c, "%default%");
 
-  $parcel$ReactRefreshHelpers$2bb6.postlude(module);
+  $parcel$ReactRefreshHelpers$286f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../actions/settings":"aLk7x","./Instructions":"5gH33","../actions/deck":"65EqV","../reducers/fetchStates":"hUZC4","./DrawCard":"h2MpH","./Card":"lr4o1","./Guess":"2fv0K","./GameState":"inrOa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aLk7x":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../actions/settings":"3X3Ov","./Instructions":"dlhoQ","../actions/deck":"iyn0y","../reducers/fetchStates":"dE3jB","./DrawCard":"7RzDI","./Card":"jAv2Q","./Guess":"3vjmV","./GameState":"hOZ0j","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3X3Ov":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "startGame", ()=>startGame);
@@ -39776,11 +39779,11 @@ const collapseInstructions = ()=>{
     };
 };
 
-},{"./types":"5VyPq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5gH33":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a0fc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./types":"cYmKo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dlhoQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e899 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a0fc.prelude(module);
+$parcel$ReactRefreshHelpers$e899.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -39797,40 +39800,40 @@ const Instructions = (props)=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: "Instructions"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 10,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Welcome to evens or odds. The game goes like this."
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 11,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "The deck is shuffled. Then choose: will the next card be even or odd?"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 12,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Make a choice on every draw, and see how many you get right!"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 13,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "(Face cards don't count)"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 14,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 15,
                 columnNumber: 17
             }, undefined),
@@ -39838,13 +39841,13 @@ const Instructions = (props)=>{
                 onClick: collapseInstructions,
                 children: "Show less"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 16,
                 columnNumber: 17
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+        fileName: "src/projects/evens-or-odds/components/Instructions.js",
         lineNumber: 9,
         columnNumber: 13
     }, undefined);
@@ -39853,14 +39856,14 @@ const Instructions = (props)=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: "Instructions"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 22,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Welcome to evens or odds. The game goes like this..."
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 23,
                 columnNumber: 13
             }, undefined),
@@ -39868,13 +39871,13 @@ const Instructions = (props)=>{
                 onClick: expandInstructions,
                 children: "Read more"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+                fileName: "src/projects/evens-or-odds/components/Instructions.js",
                 lineNumber: 24,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/projects/evens-or-odds/src/components/Instructions.js",
+        fileName: "src/projects/evens-or-odds/components/Instructions.js",
         lineNumber: 21,
         columnNumber: 9
     }, undefined);
@@ -39889,12 +39892,12 @@ exports.default = (0, _reactRedux.connect)((state)=>({
 var _c;
 $RefreshReg$(_c, "Instructions");
 
-  $parcel$ReactRefreshHelpers$a0fc.postlude(module);
+  $parcel$ReactRefreshHelpers$e899.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../actions/settings":"aLk7x","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"65EqV":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../actions/settings":"3X3Ov","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iyn0y":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "fetchDeckSuccess", ()=>fetchDeckSuccess);
@@ -39939,11 +39942,11 @@ const fetchDrawCard = (deck_id)=>(dispatch)=>{
             }));
     };
 
-},{"./types":"5VyPq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"h2MpH":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0b4d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./types":"cYmKo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7RzDI":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3b53 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0b4d.prelude(module);
+$parcel$ReactRefreshHelpers$3b53.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -39959,12 +39962,12 @@ const DrawCard = ({ deck_id , fetchDrawCard  })=>{
             onClick: fetchDrawCard(deck_id),
             children: "Draw the next card!"
         }, void 0, false, {
-            fileName: "src/projects/evens-or-odds/src/components/DrawCard.js",
+            fileName: "src/projects/evens-or-odds/components/DrawCard.js",
             lineNumber: 8,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
-        fileName: "src/projects/evens-or-odds/src/components/DrawCard.js",
+        fileName: "src/projects/evens-or-odds/components/DrawCard.js",
         lineNumber: 7,
         columnNumber: 9
     }, undefined);
@@ -39981,16 +39984,16 @@ exports.default = (0, _reactRedux.connect)(({ deck: { deck_id  }  })=>({
 var _c;
 $RefreshReg$(_c, "DrawCard");
 
-  $parcel$ReactRefreshHelpers$0b4d.postlude(module);
+  $parcel$ReactRefreshHelpers$3b53.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../actions/deck":"65EqV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lr4o1":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$3c44 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../actions/deck":"iyn0y","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jAv2Q":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9398 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3c44.prelude(module);
+$parcel$ReactRefreshHelpers$9398.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -40011,7 +40014,7 @@ const Card = ({ cards  })=>{
                     suit
                 ]
             }, void 0, true, {
-                fileName: "src/projects/evens-or-odds/src/components/Card.js",
+                fileName: "src/projects/evens-or-odds/components/Card.js",
                 lineNumber: 9,
                 columnNumber: 13
             }, undefined),
@@ -40019,13 +40022,13 @@ const Card = ({ cards  })=>{
                 src: image,
                 alt: "card-image"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Card.js",
+                fileName: "src/projects/evens-or-odds/components/Card.js",
                 lineNumber: 10,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/projects/evens-or-odds/src/components/Card.js",
+        fileName: "src/projects/evens-or-odds/components/Card.js",
         lineNumber: 8,
         columnNumber: 9
     }, undefined);
@@ -40037,16 +40040,16 @@ exports.default = (0, _reactRedux.connect)(({ deck: { cards  }  })=>({
 var _c;
 $RefreshReg$(_c, "Card");
 
-  $parcel$ReactRefreshHelpers$3c44.postlude(module);
+  $parcel$ReactRefreshHelpers$9398.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2fv0K":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$be0f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3vjmV":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3ef8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$be0f.prelude(module);
+$parcel$ReactRefreshHelpers$3ef8.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -40062,7 +40065,7 @@ const Guess = ({ guess , setGuessEven , setGuessOdd  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: "Will it be even or odd?"
             }, void 0, false, {
-                fileName: "src/projects/evens-or-odds/src/components/Guess.js",
+                fileName: "src/projects/evens-or-odds/components/Guess.js",
                 lineNumber: 8,
                 columnNumber: 13
             }, undefined),
@@ -40075,7 +40078,7 @@ const Guess = ({ guess , setGuessEven , setGuessOdd  })=>{
                         } : null,
                         children: "Even"
                     }, void 0, false, {
-                        fileName: "src/projects/evens-or-odds/src/components/Guess.js",
+                        fileName: "src/projects/evens-or-odds/components/Guess.js",
                         lineNumber: 10,
                         columnNumber: 17
                     }, undefined),
@@ -40087,19 +40090,19 @@ const Guess = ({ guess , setGuessEven , setGuessOdd  })=>{
                         } : null,
                         children: "Odd"
                     }, void 0, false, {
-                        fileName: "src/projects/evens-or-odds/src/components/Guess.js",
+                        fileName: "src/projects/evens-or-odds/components/Guess.js",
                         lineNumber: 15,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/projects/evens-or-odds/src/components/Guess.js",
+                fileName: "src/projects/evens-or-odds/components/Guess.js",
                 lineNumber: 9,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/projects/evens-or-odds/src/components/Guess.js",
+        fileName: "src/projects/evens-or-odds/components/Guess.js",
         lineNumber: 7,
         columnNumber: 9
     }, undefined);
@@ -40114,12 +40117,12 @@ exports.default = (0, _reactRedux.connect)(({ gameState: { guess  }  })=>({
 var _c;
 $RefreshReg$(_c, "Guess");
 
-  $parcel$ReactRefreshHelpers$be0f.postlude(module);
+  $parcel$ReactRefreshHelpers$3ef8.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../actions/guess":"1okhu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1okhu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../actions/guess":"9Toa0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9Toa0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setGuessEven", ()=>setGuessEven);
@@ -40138,11 +40141,11 @@ const setGuessOdd = ()=>{
     };
 };
 
-},{"./types":"5VyPq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"inrOa":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e2c7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./types":"cYmKo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hOZ0j":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$08cc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e2c7.prelude(module);
+$parcel$ReactRefreshHelpers$08cc.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -40179,7 +40182,7 @@ const GameState = ({ remaining , correctGuesses  })=>{
                     record
                 ]
             }, void 0, true, {
-                fileName: "src/projects/evens-or-odds/src/components/GameState.js",
+                fileName: "src/projects/evens-or-odds/components/GameState.js",
                 lineNumber: 19,
                 columnNumber: 14
             }, undefined),
@@ -40189,7 +40192,7 @@ const GameState = ({ remaining , correctGuesses  })=>{
                     " cards remaining"
                 ]
             }, void 0, true, {
-                fileName: "src/projects/evens-or-odds/src/components/GameState.js",
+                fileName: "src/projects/evens-or-odds/components/GameState.js",
                 lineNumber: 20,
                 columnNumber: 13
             }, undefined),
@@ -40200,13 +40203,13 @@ const GameState = ({ remaining , correctGuesses  })=>{
                     guessText
                 ]
             }, void 0, true, {
-                fileName: "src/projects/evens-or-odds/src/components/GameState.js",
+                fileName: "src/projects/evens-or-odds/components/GameState.js",
                 lineNumber: 21,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/projects/evens-or-odds/src/components/GameState.js",
+        fileName: "src/projects/evens-or-odds/components/GameState.js",
         lineNumber: 18,
         columnNumber: 9
     }, undefined);
@@ -40219,11 +40222,11 @@ exports.default = (0, _reactRedux.connect)(({ deck: { remaining  } , gameState: 
 var _c;
 $RefreshReg$(_c, "GameState");
 
-  $parcel$ReactRefreshHelpers$e2c7.postlude(module);
+  $parcel$ReactRefreshHelpers$08cc.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fwydm":[function() {},{}],"irmnC":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire458c")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eNqxJ":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire458c")
 
 //# sourceMappingURL=index.975ef6c8.js.map
